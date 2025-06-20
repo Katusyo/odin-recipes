@@ -1,0 +1,14 @@
+div {
+    margin: 8px;
+    text-align: center;
+    font-size: 40px;
+}
+
+button {
+    display: block;
+    padding: 8px 24px;
+    background: rgb(206, 69, 99);
+    border: 5px solid #000000;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
