@@ -1,3 +1,64 @@
+:root{
+    --clr-dark: #0f172a;
+    --clr-light: #f1f5f9;
+    --clr-accent: #e11d48;
+}
+
+*,
+* ::before,
+*::after {
+    box-sizing:border-box
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    word-spacing: 1.4px;
+    font-family: "Roboto", sans-serif;
+    color: var(--clr-dark);
+    background-color:aquamarine;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    align-items: center;
+    border: 10px #f3eeef solid;
+    padding: 125px;
+}
+
+container {
+    width: 80%;
+    height: 150px;
+    background-color: #e11d48;
+    padding: 1em;
+    font-weight: 700;
+    color: var(--clr-light);
+    text-align: center;
+    border: 10px solid var(--clr-accent);
+    border-radius: 10px;
+}
+
+img {
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.link {
+    text-align: center;
+}
+
+/*
 * {
     line-height: 1.5;
     margin: 0;
@@ -10,7 +71,9 @@ body {
 }
 
 img {
-    width: 200px;
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
 }
 
 div {
@@ -20,26 +83,54 @@ div {
 }
 
 button {
-    display: block;
+    display: flex;
     padding: 8px 24px;
     background: rgb(206, 69, 99);
     border: 5px solid #000000;
     font-size: 20px;
     margin: auto;
+    justify-content: flex-end;
 }
 
-.recipe-card a b c{
-    width: 400px;
-    text-align: center;
+.recipe-card{
     background-color: crimson;
     margin: auto;
-    padding: 50px 50px;
+    padding: 50px;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
     display: flex;
     border: 2px solid black;
+    width: auto;
+    justify-content: center;
 }
 
 .recipe-link {
     text-align: center;
     padding: 20px;
 }
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.bolded {
+    font-weight: bold;
+}
+
+.time {
+    border: 5px solid black;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    margin: auto;
+    justify-content: center;
+    font-weight: lighter;
+}
+
+.container div {
+    background-color: crimson;
+    border: 2px solid black;
+    height: 400px;
+    flex: 1 
+} */
